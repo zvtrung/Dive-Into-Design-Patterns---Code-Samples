@@ -11,6 +11,9 @@ import refactoring_guru.builder.example.components.TripComputer;
  * Director defines the order of building steps. It works with a builder object
  * through common Builder interface. Therefore it may not know what product is
  * being built.
+ * 
+ * Định nghĩa thứ tự của các bước xây dựng object.
+ * Dùng một builder object thông qua interface Builder --> không cần biết đang build product gì
  */
 public class Director {
 
